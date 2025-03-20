@@ -1,0 +1,275 @@
+.book-cover:hover #bird{
+    display: block;
+    opacity: 1;
+    
+
+}
+.book-cover:hover #trees{
+
+    transform: translateY(400px);
+}
+.book-cover:hover #shadows{
+    clip-path: inset(0 0 100% 0); 
+
+}
+.book-cover:hover .hunger{
+    top: 10px;
+    color: white;
+    font-size: 90px;
+
+}
+.book-cover:hover .games{
+    top: 280px;
+    color:white;
+    font-weight: bold;
+    font-size: 90px;
+
+}
+
+.book-cover:hover #bottomKids{
+  
+    bottom: 0px;
+    height:900px;
+}
+#bottomKids{
+    height: 600px;
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    transition: height 2s ease-in-out
+}
+/* .book-cover:hover #letter-r{
+    left: 360px;
+}
+.book-cover:hover #letter-e{
+    left: 290px;
+}
+.book-cover:hover #letter-g{
+    left: 220px;
+}
+.book-cover:hover #letter-n{
+    left: 148px;
+} */
+
+
+#shadows {
+    position: absolute;
+    height:auto;
+    width:420;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    clip-path: inset(0 0 0 0); 
+    transition: clip-path 2s cubic-bezier(0.9, 0.1, 0.1, 0.9);
+}
+
+#bird{
+    opacity:0;
+    top: 88px;
+    height:206px;
+    width:auto;
+    left:33%; 
+    position: absolute;
+    z-index: -2;
+    align-items: center;
+    /* animation: startHidden 0.001s forwards; */
+    transition: opacity 3s ease-in-out;
+}
+#trees{
+    position: absolute;
+    transform: translateY(0);
+    transition: transform 2s ease-in-out;
+}
+@keyframes startHidden {
+    from { opacity: 1; } 
+    to { opacity: 0; } 
+}
+/* .book-cover:hover #letter-r {
+    animation: moveR 2s ease-in-out forwards;
+}
+
+.book-cover:hover #letter-e {
+    animation: moveE 2s ease-in-out forwards;
+}
+
+.book-cover:hover #letter-g {
+    animation: moveG 2s ease-in-out forwards;
+}
+
+.book-cover:hover #letter-n {
+    animation: moveN 2s ease-in-out forwards;
+}
+
+.book-cover:hover #letter-a {
+    animation: moveA 2s ease-in-out forwards;
+} */
+.book-cover:hover #letter-r {
+    top: 10px;
+    left: 360px;
+    color: white;
+    font-size: 90px;
+}
+.book-cover:hover #letter-e {
+    top: 10px;
+    left: 290px;
+    color: white;
+    font-size: 90px;
+}
+.book-cover:hover #letter-g {
+    top: 10px;
+    left: 220px;
+    color: white;
+    font-size: 90px;
+}
+.book-cover:hover #letter-n {
+    top: 10px;
+    left: 148px;
+    color: white;
+    font-size: 90px;
+}
+.book-cover:hover #letter-a {
+    top: 280px;
+    left: 120px;
+    color: white;
+    font-size: 90px;
+}
+
+
+/* 500X207 */
+@keyframes moveDown {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(1000px);
+    }
+  }
+
+  @keyframes shrinkClipPath {
+    0% {
+        clip-path: inset(0 0 0 0); 
+    }
+    100% {
+        clip-path: inset(0 0 100% 0); 
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        top: 100px;
+    }
+    100% {
+        top: 10px;
+        color:white;
+        font-size: 90px;
+    }
+}
+
+@keyframes moveDownLetters {
+    0% {
+        top: 170px;
+    }
+    100% {
+        top: 280px;
+        color:white;
+        font-weight: bold;
+        font-size: 90px;
+    }
+}
+
+@keyframes grow {
+    0% {
+        
+        height:600px;
+    }
+    100% {
+        
+        height:900px; 
+    }
+}
+
+@keyframes becomeVisible {
+    0% {
+        
+        opacity:0%
+    }
+    100% {
+        
+        opacity: 100%;
+    }
+}
+
+
+
+
+@keyframes moveN {
+    0% {
+        top: 100px;
+        left: 153px;
+    }
+    100% {
+        top: 10px;
+        color:white;
+        font-size: 90px;
+        left: 148px;
+
+    }
+}
+
+@keyframes moveG {
+    0% {
+        top: 100px;
+        left: 230px;
+    }
+    100% {
+        top: 10px;
+        color:white;
+        font-size: 90px;
+        left: 220px;
+
+    }
+}
+
+@keyframes moveE {
+    0% {
+        top: 100px;
+        left: 300px;
+    }
+    100% {
+        top: 10px;
+        color:white;
+        font-size: 90px;
+        left: 290px;
+
+    }
+}
+
+@keyframes moveR {
+    0% {
+        top: 100px;
+        left: 375px;
+    }
+    100% {
+        top: 10px;
+        color:white;
+        font-size: 90px;
+        left: 360px;
+
+    }
+}
+
+@keyframes moveA {
+    0% {
+        top: 170px;
+    }
+    100% {
+        top: 280px;
+        color:white;
+        font-size: 90px;
+        left: 120px;
+
+    }
+}
+

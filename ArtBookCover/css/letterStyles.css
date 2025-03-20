@@ -1,0 +1,124 @@
+/* #letter-h {
+    left:10px;
+}
+
+letter-u {
+    left:75px;
+}
+
+#letter-n {
+    left:153px;
+}
+
+#letter-g {
+    left:230px;
+}
+
+#letter-e {
+    left:300px;
+}
+
+#letter-r {
+    left:375px;
+}
+
+#letter-g2 {
+    left: 50px;
+}
+#letter-a {
+    left: 115px;
+}
+#letter-m { 
+    left: 195px;
+}
+#letter-e2 { 
+    left: 265px;
+}
+#letter-s { 
+    left: 335px;
+} */
+#letter-h {
+    left:8px;
+}
+#letter-u {
+    left:78px;
+}
+#letter-g2 {
+    left: 50px;
+}
+#letter-m { 
+    left: 195px;
+}
+#letter-e2 { 
+    left: 267px;
+}
+#letter-s { 
+    left: 337px;
+}
+#letter-r {
+    position: absolute;
+    top: 100px; 
+    left: 375px;
+    font-family: "rough", sans-serif; 
+    font-size: 60px; 
+    transition: top 2s ease-in-out, left 2s ease-in-out, color 2s ease-in-out, font-size 2s ease-in-out;
+}
+#letter-e {
+    position: absolute;
+    top: 100px; 
+    left: 304px;
+    font-family: "rough", sans-serif;
+    font-size: 60px;
+    transition: top 2s ease-in-out, left 2s ease-in-out, color 2s ease-in-out, font-size 2s ease-in-out;
+}
+#letter-g {
+    position: absolute;
+    top: 100px;
+    left: 234px;
+    font-family: "rough", sans-serif;
+    font-size: 60px;
+    transition: top 2s ease-in-out, left 2s ease-in-out, color 2s ease-in-out, font-size 2s ease-in-out;
+}
+#letter-n {
+    position: absolute;
+    top: 100px; 
+    left: 155px;
+    font-family: "rough", sans-serif;
+    font-size: 60px;
+    transition: top 2s ease-in-out, left 2s ease-in-out, color 2s ease-in-out, font-size 2s ease-in-out;
+}
+#letter-a {
+    position: absolute;
+    top: 170px; 
+    left: 117px; 
+    font-family: "rough", sans-serif;
+    font-size: 55px; 
+    color: #EB6E37; 
+    transition: top 2s ease-in-out, left 2s ease-in-out, color 2s ease-in-out, font-size 2s ease-in-out;
+}
+.hunger{
+    font-family: "rough", sans-serif;
+    font-size: 60px;
+    top:100px;
+    position: absolute; 
+    transition: top 2s ease-in-out, color 2s ease-in-out, font-size 2s ease-in-out;
+}
+.games{
+    font-family: "rough", sans-serif;
+    font-size: 55px;
+    top:170px;
+    position: absolute; 
+    color: #EB6E37;
+    z-index: 1; 
+    transition: top 2s ease-in-out, color 2s ease-in-out, font-size 2s ease-in-out;
+}
+#author{
+    font-family: "rough", sans-serif;
+    font-size: 30px;
+    left: 100px;
+    top:560px;
+    position: absolute; 
+    color: #EB6E37;
+    z-index: 5; 
+}
+
